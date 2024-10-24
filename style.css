@@ -1,0 +1,16 @@
+/* Add this to your style.css */
+.form-control.error input {
+    border-color: red;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.success input {
+    border-color: green;
+}
+
+.form-control small {
+    visibility: hidden;
+}
